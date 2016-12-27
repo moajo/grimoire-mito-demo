@@ -1,6 +1,6 @@
-<goml width="1280" height="520" bgColor="gray">
-  <scene>
-    <camera/>
-    <mesh geometry="cube" color="red"/>
-  </scene>
+<goml width="1024" height="512" bgColor="gray">
+    <scene>
+        <camera/>
+        <mesh color="red" position="0,0,0" geometry="cube"/>
+    </scene>
 </goml>

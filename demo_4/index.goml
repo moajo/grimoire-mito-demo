@@ -1,10 +1,10 @@
-<goml width="1280" height="520" bgColor="gray">
-  <scene>
-    <camera>
-      <camera.components>
-        <MouseCameraControl />
-      </camera.components>
-    </camera>
-    <mesh geometry="sphere" texture="../img1.jpg"/>
-  </scene>
+<goml width="1024" height="512" bgColor="gray">
+    <scene>
+        <camera>
+            <camera.components>
+                <MouseCameraControl center="10"/>
+            </camera.components>
+        </camera>
+        <mesh texture="../img1.jpg" position="0,0,0" geometry="sphere"/>
+    </scene>
 </goml>
