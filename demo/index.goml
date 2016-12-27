@@ -1,10 +1,10 @@
 <goml width="1024" height="512" bgColor="gray">
     <scene>
-        <camera position="0,0,0">
+        <camera>
             <camera.components>
-                <Mouse/>
+                <MouseCameraControl/>
             </camera.components>
         </camera>
-        <mesh texture="../img1.jpg" geometry="sphere" scale="1,1,-1"/>
+        <model src="../gltf/city/VC.gltf"></model>
     </scene>
 </goml>

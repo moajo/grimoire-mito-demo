@@ -1,0 +1,10 @@
+<goml width="1024" height="512" bgColor="gray">
+    <scene>
+        <camera>
+            <camera.components>
+                <MouseCameraControl/>
+            </camera.components>
+        </camera>
+        <model src="../gltf/city/VC.gltf"></model>
+    </scene>
+</goml>
